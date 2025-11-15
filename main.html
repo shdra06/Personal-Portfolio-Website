@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Shivendra Prasad — Portfolio</title>
+  <meta name="description" content="Portfolio of Shivendra Prasad — projects, skills and contact." />
+  <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap" role="banner">
+      <a class="brand" href="#home">
+        <div class="logo">SP</div>
+        <div class="brand-text">
+          <div class="name">Shivendra Prasad</div>
+          <div class="sub">CSE • DTU</div>
+        </div>
+      </a>
+
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Education / Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="nav-actions" role="navigation" aria-label="actions">
+        <a class="nav-button" href="https://github.com/shdra06" target="_blank" rel="noopener">GitHub</a>
+        <a class="nav-button" href="#contact">Contact</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero container" aria-label="Introduction">
+      <div class="hero-grid">
+        <div>
+          <h1>Hello — I'm <span class="accent">Shivendra Prasad</span></h1>
+          <p class="lead">A DTU Computer Science student who builds clean web interfaces, practices DSA in C++, and explores small AI prototypes. I focus on readable code and pleasant user experiences.</p>
+          <div class="cta-row">
+            <a class="nav-button" href="#projects">See my work</a>
+            <a class="nav-button" href="#about">Read more</a>
+          </div>
+          <p class="socials">• <a href="https://github.com/shdra06" target="_blank">GitHub</a> • <a href="https://www.linkedin.com/in/shivendra-prasad-0125a9373/" target="_blank">LinkedIn</a> •</p>
+        </div>
+
+        <aside class="hero-art" aria-hidden="true">
+          <div class="avatar">
+            <img src="selfimage.jpg" alt="Shivendra Prasad — profile photo" />
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section id="about" class="container" aria-label="About me">
+      <div class="about-wrapper">
+        <div class="about-left">
+          <h2>About Me</h2>
+          <p>I’m studying Computer Science at Delhi Technological University (DTU). My strengths are data structures & algorithms in C++, front-end development using semantic HTML and modern CSS, and learning the basics of ML and web backends.</p>
+
+          <ul class="about-list" aria-hidden="false">
+            <li><strong>Location:</strong> Delhi, India</li>
+            <li><strong>College:</strong> Delhi Technological University (DTU)</li>
+            <li><strong>Interests:</strong> Algorithms, Web Dev, System Design, AI</li>
+          </ul>
+        </div>
+
+        <aside class="quick-card" aria-hidden="true">
+          <h3>Quick facts</h3>
+          <p><strong>Languages:</strong> C++, HTML, CSS</p>
+          <p><strong>Tools:</strong> Git, GitHub, Firebase, ChatGPT</p>
+        </aside>
+      </div>
+    </section>
+
+    <section id="skills" class="container">
+      <div class="skills-card card">
+        <h2>Education / Skills</h2>
+        <div class="skills-grid">
+          <div>
+            <h3>Education</h3>
+            <p><strong>B.Tech — Computer Science & Engineering</strong><br>Delhi Technological University (DTU), Expected: 2028</p>
+          </div>
+          <div>
+            <h3>Skills</h3>
+            <div class="skills-list" aria-hidden="false">
+              <div class="skill-pill">C++ (DSA)</div>
+              <div class="skill-pill">HTML & CSS (Responsive)</div>
+              <div class="skill-pill">JavaScript (DOM & Fetch)</div>
+              <div class="skill-pill">Git & GitHub</div>
+              <div class="skill-pill">Basic ML concepts</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="container" aria-label="Projects">
+      <h2 class="section-title">Projects / Portfolio</h2>
+      <div class="projects-list projects-card">
+        <article class="project-card" aria-labelledby="p1">
+          <a class="project-thumb" href="#" aria-label="DSA Practice Library - open repository">
+            <img src="firebase.png" alt="firebase project">
+          </a>
+          <div>
+            <h3 id="p1">DSA Practice Library</h3>
+            <p>A collection of clear, well-commented C++ solutions for common interview problems: arrays, trees, graphs, and dynamic programming.</p>
+            <div class="project-meta"><strong>Tech:</strong> C++ • <a href="#" class="accent-link">Source</a></div>
+          </div>
+        </article>
+
+        <article class="project-card" aria-labelledby="p2">
+          <a class="project-thumb" href="#" aria-label="Portfolio live demo">
+            <img src="firebase.png" alt="portfolio thumbnail">
+          </a>
+          <div>
+            <h3 id="p2">Personal Portfolio (this project)</h3>
+            <p>Single-page portfolio highlighting skills, projects, and contact information—designed for academic submission and clean presentation.</p>
+            <div class="project-meta"><strong>Tech:</strong> HTML, CSS • <a href="#" class="accent-link">Live</a></div>
+          </div>
+        </article>
+
+        <article class="project-card" aria-labelledby="p3">
+          <a class="project-thumb" href="#" aria-label="Firebase prototype">
+            <img src="firebase.png" alt="firebase project">
+          </a>
+          <div>
+            <h3 id="p3">Firebase Web App (Prototype)</h3>
+            <p>A small prototype using Firebase Auth and Firestore to store user notes — demonstrates connecting a static frontend to a managed backend quickly.</p>
+            <div class="project-meta"><strong>Tech:</strong> HTML, JS, Firebase • <a href="#" class="accent-link">Repo</a></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="container">
+      <div class="contact-card card">
+        <h2>Contact Information</h2>
+        <p>If you'd like to reach out, email me or connect through GitHub / LinkedIn.</p>
+        <ul class="contact-list">
+          <li><strong>Email:</strong> <a class="mailto" href="mailto:shdra06@gmail.com">shdra06@gmail.com</a></li>
+          <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/shivendra-prasad-0125a9373/" target="_blank">linkedin.com/in/shivendra</a></li>
+          <li><strong>GitHub:</strong> <a href="https://github.com/shdra06" target="_blank">github.com/shdra06</a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer container" role="contentinfo">
+    <div>Made with ♥ by <strong>Shivendra Prasad</strong>. © 2025</div>
+  </footer>
+</body>
+</html>
